@@ -1,4 +1,5 @@
 import requests
 
-print("Requests version:", requests.__version__)
-r = requests.get("https://www.google.com/")
+r = requests.get("https://raw.githubusercontent.com/daryna-c/cmput404lab1/main/pythonScript.py")
+print("pythonScript source code:\n")
+print(r.text)
